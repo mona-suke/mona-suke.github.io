@@ -95,7 +95,19 @@
       line-height: 1.8;
       color: var(--sub);
     }
+.profile-image {
+  flex-shrink: 0;
+	width: 300px;
+}
 
+.profile-image img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid rgba(255,255,255,0.1);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
