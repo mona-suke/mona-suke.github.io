@@ -18,72 +18,82 @@
     <ul class="nav-links">
       <li><a href="#profile">Profile</a></li>
       <li><a href="#works">Works</a></li>
-      <li><a href="#skills">Skills</a></li>
+      <li><a href="#sns">SNS</a></li>
     </ul>
   </div>
 </nav>
 
 <header class="hero">
-  <h1>mona-suke</h1>
-  <p>Web / Backend / Data Enthusiast</p>
+	<img src="images/portfolio.png">
 </header>
 
 <main>
 
-  <section id="profile">
-	<div class="profile-image">
-    	<img src="images/profileimage.png" alt="profile image">
-    </div>
-	<div>
-		<h2>PROFILE</h2>
-		<p class="about">
-		  PHP・JavaScript・Python を使って  
-		  Webアプリやデータ処理ツールを作っています。<br>
-		  仕組みを理解することを大切にしながら、  
-		  シンプルで保守しやすい実装を心がけています。<br><br><br><br><br><br><br>
-		</p>
+	<section id="profile">
+		<div class="sec-content">
+			<div class="profile-image">
+				<img src="images/profileimage.png" alt="profile image">
+			</div>
+			<div class="prof-content">
+				<div>
+					<h2>PROFILE</h2>
+					<p class="about">
+					PHP・JavaScript・Python を使って  
+					Webアプリやデータ処理ツールを作っています。<br>
+					仕組みを理解することを大切にしながら、  
+					シンプルで保守しやすい実装を心がけています。
+					</p>
+				</div>
+				<div>
+					<h2>SKILLS</h2>
+					<div class="skills">
+						<span>Python</span>
+						<span>excelVBA</span>
+						<span>PHP</span>
+						<span>JavaScript</span>
+						<span>MySQL</span>
+						<span>HTML / CSS</span>
+						<span>Git / GitHub</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</section>
+
+<section id="works">
+	<div class="sec-content">
+		<h2>WORKS</h2>
+
+		<div class="grid">
+			<div class="card">
+				<h3>Search Engine</h3>
+				<p>PHP と JavaScript で作成した検索アプリ。</p>
+				<a href="http://49.212.162.48/datasearch/main.php" target="_blank" class="cta-btn">View Project →</a>
+			</div>
+
+			<div class="card">
+				<h3>TechnicalChart</h3>
+				<p>PHP × JavaScript（ECharts）によるテクニカルチャート。</p>
+				<a href="https://mona-suke.github.io/technical_chart/technicalchart.html" target="_blank" class="cta-btn">View Project →</a>
+			</div>
+
+			<div class="card">
+				<h3>ShareBear</h3>
+				<p>ユーザー登録制の予定共有CRUDアプリ</p>
+				<a href="http://49.212.162.48/crud/admin.php" target="_blank" class="cta-btn">View Project →</a>
+			</div>
+		</div>
 	</div>
-    
+</section>
 
+<section id="sns">
+	<div class="sec-content">
+		<h2>SNS</h2>
 
-  </section>
-
-  <section id="works">
-    <h2>WORKS</h2>
-
-    <div class="grid">
-      <div class="card">
-        <h3>Search Engine</h3>
-        <p>PHP と JavaScript で作成した検索アプリ。</p>
-        <a href="http://49.212.162.48/datasearch/main.php" target="_blank" class="cta-btn">View Project →</a>
-      </div>
-
-      <div class="card">
-        <h3>TechnicalChart</h3>
-        <p>PHP × JavaScript（ECharts）によるテクニカルチャート。</p>
-        <a href="https://mona-suke.github.io/technical_chart/technicalchart.html" target="_blank" class="cta-btn">View Project →</a>
-      </div>
-
-      <div class="card">
-        <h3>ShareBear</h3>
-        <p>ユーザー登録制の予定共有CRUDアプリ</p>
-        <a href="http://49.212.162.48/crud/admin.php" target="_blank" class="cta-btn">View Project →</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="skills">
-    <h2>SKILLS</h2>
-    <div class="skills">
-      <span>PHP</span>
-      <span>JavaScript</span>
-      <span>Python</span>
-      <span>MySQL</span>
-      <span>HTML / CSS</span>
-      <span>Git / GitHub</span>
-      <span>Linux / VPS</span>
-    </div>
-  </section>
+	</div>
+</section>
 
 </main>
 
